@@ -1,9 +1,9 @@
 import { ButtonContainer, Num } from "./styles";
 
-const Button = () => {
+const Button = ({ label, onClick }) => {
   return (
-    <ButtonContainer>
-      <Num>1</Num>
+    <ButtonContainer onClick={onClick}>
+      <Num>{label}</Num>
     </ButtonContainer>
   );
 };
