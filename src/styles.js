@@ -4,7 +4,8 @@ export const Container = styled.div`
   position: relative;
   min-width: 300px;
   min-height: 400px;
-  max-with: 480px;
+  max-width: 470px;
+  max-height: 700px;
   padding: 40px 30px 30px;
   border-radius: 20px;
   box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
@@ -12,14 +13,7 @@ export const Container = styled.div`
     inset 5px 5px 15px rgba(0, 0, 0, 0.25);
 `;
 
-export const Content = styled.div`
-  position: relative;
+export const Keyboard = styled.div`
   display: grid;
-`;
-
-export const Row = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  grid-template-columns: repeat(4, 1fr); ;
 `;

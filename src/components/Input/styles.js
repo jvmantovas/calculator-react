@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const InputContainer = styled.div`
   input {
+    display: grid;
+    grid-column: span 4;
     font-family: "Orbitron", sans-serif;
     font-weight: 600;
     position: relative;
-    grid-column: span 4;
     height: 100px;
     width: calc(100% - 20px);
     left: 10px;
