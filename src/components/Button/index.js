@@ -1,9 +1,9 @@
 import { ButtonContainer, Num } from "./styles";
 
-const Button = ({ label, onClick }) => {
+const Button = (props) => {
   return (
-    <ButtonContainer onClick={onClick}>
-      <Num>{label}</Num>
+    <ButtonContainer onClick={() => props.onClick(props.keyValue)}>
+      <Num>{props.keyValue}</Num>
     </ButtonContainer>
   );
 };

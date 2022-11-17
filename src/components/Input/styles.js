@@ -9,12 +9,13 @@ export const InputContainer = styled.div`
     left: 10px;
     border: none;
     outline: none;
-    background-color: #a7af7c;
+    background-color: darkolivegreen;
     margin-bottom: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 0 5px #000000;
     text-align: right;
     padding: 10px;
     font-size: 2em;
+    color: #000000;
   }
 `;
