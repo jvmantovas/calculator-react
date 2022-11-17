@@ -2,20 +2,23 @@ import styled from "styled-components";
 
 export const InputContainer = styled.div`
   input {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
     position: relative;
     grid-column: span 4;
     height: 100px;
     width: calc(100% - 20px);
     left: 10px;
-    border: none;
+    border: 2px solid #000000;
     outline: none;
     background-color: darkolivegreen;
     margin-bottom: 10px;
     border-radius: 10px;
-    box-shadow: inset 0 0 5px #000000;
+    box-shadow: inset 0 0 8px #000000;
     text-align: right;
     padding: 10px;
-    font-size: 2em;
+    padding-right: 20px;
+    font-size: 4em;
     color: #000000;
   }
 `;
