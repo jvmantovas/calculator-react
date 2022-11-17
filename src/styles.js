@@ -11,6 +11,7 @@ export const Container = styled.div`
   box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
     10px 10px 70px rgba(0, 0, 0, 0.25), inset -5px -5px 15px rgba(0, 0, 0, 0.25),
     inset 5px 5px 15px rgba(0, 0, 0, 0.25);
+  background-color: #202020;
 `;
 
 export const Keyboard = styled.div`

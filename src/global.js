@@ -14,6 +14,6 @@ export default createGlobalStyle`
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #202020;   
+    background-color: #221a1a;   
     }
 `;
