@@ -36,6 +36,9 @@ export const PlusButtonContainer = styled.span`
     border-bottom: 1px solid #0004;
     border-top: 1px solid #0009;
   }
+  &:active {
+    filter: brightness(1.5);
+  }
 `;
 
 export const Num = styled.i`

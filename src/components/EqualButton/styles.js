@@ -33,6 +33,8 @@ export const EqualButtonContainer = styled.span`
     box-shadow: -5px -5px 15px rgb(0, 0, 0, 0.1),
       10px 5px 10px rgb(0, 0, 0, 0.15);
   }
+  &:active {
+    filter: brightness(1.5);
 `;
 
 export const Num = styled.i`
